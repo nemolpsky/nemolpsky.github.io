@@ -1,13 +1,16 @@
 <html>
 
 <head>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js">
-window.onload = function() {
- 
-    alert( "welcome" );
- 
-};  
-</script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
+<script>
+    $(document).ready(function(){
+      $("h1").click(function(){
+        alert("The paragraph was clicked.");
+      });
+    });
+    </script>
+
 </head>
 
 <body>
